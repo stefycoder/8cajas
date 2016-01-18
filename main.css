@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:content-box;
+}
+body{
+	margin: 10px;
+}
+.caja{	
+	background-color: #428bca;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	}/* Inserta tu CSS aqui */
+.container{
+	margin: 10px 0px;
+	width: 340px;
+	border: 2px solid #428bca;
+}
+.t{
+	border: none;
+	padding: none;
+
+}
+.container .caja{
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.container .caja:last-child{
+	margin-right: 2px;
+	text-align: left;
+}
+.inline-block{
+	display: inline-block;
+}
